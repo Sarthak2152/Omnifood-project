@@ -11,9 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
   </head>
   <body>
-    <header>
+    <header class="">
       <img class="logo" src="img/omnifood-logo.png" alt="logo" />
       <nav class="header-nav">
         <a href="#" class="header-nav-link">How it works</a
@@ -22,6 +23,10 @@
         ><a href="#" class="header-nav-link">Pricing</a>
         <a href="#" class="btn btn--primary">Try for free</a>
       </nav>
+      <button class="mobile-nav-button">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -129,7 +134,7 @@
               matter what diet you follow!
             </p>
           </div>
-          <div class="card-img">
+          <div class="card-img first-card-img">
             <img src="img/app/app-screen-1.png" alt="app screen 1" />
           </div>
 
@@ -156,7 +161,7 @@
               change delivery schedule and address daily!
             </p>
           </div>
-          <div class="card-img">
+          <div class="card-img third-card-img">
             <img src="img/app/app-screen-3.png" alt="app screen 3" />
           </div>
         </div>
@@ -173,8 +178,7 @@
         </div>
 
         <!-- MEALS CARDS  -->
-        <div
-          class="container grid grid--col3 meals-card-container margin-bottom-md">
+        <div class="container meals-card-container margin-bottom-md">
           <div class="meals-card">
             <img
               src="img/meals/meal-1.jpg"
@@ -660,7 +664,7 @@
           </ul>
         </nav>
         <nav class="resources">
-          <p class="footer-title">Company</p>
+          <p class="footer-title">Resources</p>
           <ul class="footer-links">
             <li><a href="#">Recipe directory</a></li>
             <li><a href="#">Help center</a></li>
