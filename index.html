@@ -4,24 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ominfood</title>
+    <meta
+      name="description"
+      content="A healthy meal delivered to your door, every single day. The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
+    " />
+    <title>Ominfood&mdash;never cook again</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="img/favicon.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="js/script.js"></script>
   </head>
   <body>
-    <header class="">
+    <header class="header">
       <img class="logo" src="img/omnifood-logo.png" alt="logo" />
       <nav class="header-nav">
-        <a href="#" class="header-nav-link">How it works</a
-        ><a href="#" class="header-nav-link">Meals</a
-        ><a href="#" class="header-nav-link">Testimonials </a
-        ><a href="#" class="header-nav-link">Pricing</a>
-        <a href="#" class="btn btn--primary">Try for free</a>
+        <a href="#how" class="header-nav-link">How it works</a
+        ><a href="#meal" class="header-nav-link">Meals</a
+        ><a href="#testimonial" class="header-nav-link">Testimonials </a
+        ><a href="#price" class="header-nav-link">Pricing</a>
+        <a href="#cta-id" class="btn btn--primary">Try for free</a>
       </nav>
       <button class="mobile-nav-button">
         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
@@ -41,10 +47,10 @@
               nutritional needs.
             </p>
 
-            <a href="#" class="btn btn--primary margin-right-sm"
+            <a href="#cta-id" class="btn btn--primary margin-right-sm"
               >Start eating Well</a
             >
-            <a href="#" class="btn btn--secondary">Learn more &darr;</a>
+            <a href="#how" class="btn btn--secondary">Learn more &darr;</a>
             <div class="header-component">
               <div class="carousel">
                 <img
@@ -113,7 +119,7 @@
         </div>
       </section>
       <!-- HOW IT WORKS SECTION --  2 -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="how-text">
           <p class="text-info">how it works</p>
           <h2 class="how-heading">
@@ -168,7 +174,7 @@
       </section>
 
       <!-- SECTION 4 MEALS  -->
-      <section class="meals">
+      <section class="meals" id="meal">
         <!-- HEADER INFO -->
         <div class="container center-text">
           <p class="subheading">meals</p>
@@ -304,7 +310,7 @@
       </section>
 
       <!-- TESTIMONIALS AND GALLERY SECTION -->
-      <section class="five grid grid--col2 no-gap">
+      <section class="five grid grid--col2 no-gap" id="testimonial">
         <!-- TESTIMONIALS -->
         <div class="testimonials">
           <p class="subheading">TESTIMONIALS</p>
@@ -423,7 +429,7 @@
       </section>
 
       <!-- PRICING SECTION -->
-      <section class="six pricing">
+      <section class="six pricing" id="price">
         <div class="container pricing-header">
           <p class="subheading">PRICING</p>
           <h2 class="heading-secondary">
@@ -553,7 +559,7 @@
       </section>
 
       <!-- CALL TO ACTION  -->
-      <section class="cta">
+      <section class="cta" id="cta-id">
         <div class="container">
           <div class="cta-container">
             <div class="cta-form-container">
